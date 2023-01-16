@@ -1,6 +1,7 @@
 {
   "name": "@ivatsu/expo-template",
   "version": "1.0.0",
+  "description": "Expo template",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -55,7 +56,6 @@
     "react-test-renderer": "^18.2.0",
     "typescript": "^4.8.3"
   },
-  "private": false,
   "jest": {
     "preset": "jest-expo",
     "transformIgnorePatterns": [
@@ -75,5 +75,23 @@
       "!**/babel.config.js",
       "!**/jest.setup.js"
     ]
-  }
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivatsu-boilerplates/expo-template.git"
+  },
+  "keywords": [
+    "expo",
+    "template"
+  ],
+  "author": "https://github.com/IvaTsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivatsu-boilerplates/expo-template/issues"
+  },
+  "homepage": "https://github.com/ivatsu-boilerplates/expo-template#readme"
 }
